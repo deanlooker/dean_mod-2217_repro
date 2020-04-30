@@ -1,4 +1,4 @@
-view: order_items {
+view: order_items2 {
   extends: [test_extend]
   sql_table_name: demo_db.order_items ;;
   drill_fields: [id]
@@ -47,7 +47,7 @@ view: order_items {
 }
 
 view: test_extend {
-  extension: required
+ extension: required
 
   dimension: test_dimension {
     type: string
